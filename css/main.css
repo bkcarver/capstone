@@ -102,32 +102,32 @@ p {
 
 nav {
   top: 0px;
-  max-height: 100px;
+  height: 150px;
   width: 100%;
   z-index: 10;
-  position: fixed;
+  display: grid;  
   font-family: sans-serif;
   background-color: #213853;
+  
 }
 nav img {
-    height: auto;
-    width: auto;
-    max-height: 72px;
-    max-width: 250px;
-}
+    max-width: 200px;
+    padding-left: 2em;
+    padding-top: 2em;
 }
 .container {
   display: inline-grid;
+  max-height: 100px;
   padding: 0px;
   margin: 0 auto;
   text-align: right;
 }
 .container ul {
-  padding: 0px;
-  margin: 0px;
-  text-align: right;
-  display:inline-block;
+  position: relative;
+  margin-left: 600px;
   vertical-align:center;
+  top: -50px;
+
 }
 .container ul li {
   list-style: none;
@@ -135,7 +135,6 @@ nav img {
   display: inline-block;
 }
 .container ul li a:hover {
-  padding: 0px;
   color: #CF7432;
 }
 .container ul li a {
@@ -158,13 +157,10 @@ font-size: 20px;
 }
 
 .hero img {
-  display: block;  
+  display: grid;  
   margin-left: auto;
   margin-right: auto;
   max-width: 50%;
-
-
-
 }
 /* ==========================================================================
    Helper classes
