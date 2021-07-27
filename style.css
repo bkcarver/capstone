@@ -77,7 +77,7 @@ body {
 
 .container .navbar ul li a {
   text-decoration: none;
-  color: #999999;
+  color: #ffffff;
   font-size: 16px;
   font-family: sans-serif;
   display: block;
@@ -88,7 +88,7 @@ body {
 }
 
 .container .navbar ul li a:hover {
-  color: #ffffff;
+  color: #976300;
 }
 
 .container .navbar ul .close {
@@ -153,7 +153,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    background: #ffffff;
+    background: #213853;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -167,7 +167,7 @@ body {
     font-size: 16px;
     height: auto;
     line-height: normal;
-    color: #555555;
+    color: #ffffff;
   }
 
   .container .navbar ul .close {
@@ -192,8 +192,12 @@ body {
 }
 
 .hero img {
+  display: block;
   position: relative;
-  max-width: 100%;
+  top: 150px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
