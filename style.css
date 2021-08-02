@@ -142,6 +142,7 @@ body {
     -webkit-box-flex: 0;
     -ms-flex: 0;
     flex: 0;
+
   }
 
   .container .navbar ul {
@@ -192,23 +193,52 @@ body {
 }
 
 .hero img {
+  top: 125px;
+  margin-top: 125px;
   display: block;
-  position: relative;
-  top: 150px;
-  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    background-color: #777;
+
+    }
 
 h1 {
   position: relative;
-  padding-top: 6em;
+  padding-top: 5em;
   padding-left: 1em;
   font-family: sans-serif;
 }
+
+h2 {
+  position: relative;
+  font-size: 18px;
+  text-transform: italic;
+  padding-top: 1em;
+  padding-left: 1.75em;
+  font-family: sans-serif;
+}
+
+h3 {
+  position: relative;
+  font-size: 16px;
+  text-transform: italic;
+  font-weight: bolder;
+  padding-top: 1em;
+  padding-left: 2em;
+  font-family: sans-serif;
+
+}
+
 p {  
   position: relative;
   padding-left: 2em;
+  padding-right: 2em;
   font-family: sans-serif;
-  max-width: 75%;
+  max-width: 80%;
 }
