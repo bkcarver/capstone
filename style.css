@@ -247,7 +247,10 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
-  height: 650px;
+  padding-bottom: 150px;
+  max-width: 30%;
+  height: auto;
 
 }
+
+
