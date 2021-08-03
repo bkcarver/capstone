@@ -242,3 +242,12 @@ p {
   font-family: sans-serif;
   max-width: 80%;
 }
+
+.posters img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: 650px;
+
+}
